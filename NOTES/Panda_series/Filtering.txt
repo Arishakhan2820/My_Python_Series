@@ -1,0 +1,238 @@
+📘 Pandas Topic 5: Filtering Data
+What is Filtering?
+
+Filtering is the process of selecting only the rows that satisfy a specific condition.
+
+Instead of viewing the entire dataset, filtering allows us to display only the information that matches our requirements.
+
+For example, instead of showing all students, we can display only students who scored more than 80 marks.
+
+Definition
+
+Filtering in Pandas is the process of selecting rows from a DataFrame based on one or more conditions. It helps extract only the required data while ignoring the remaining records.
+
+Why Do We Use Filtering?
+
+Filtering is used to:
+
+Find specific records quickly.
+Analyze only the required data.
+Remove unnecessary information.
+Prepare datasets for analysis.
+Make data easier to understand.
+Work efficiently with large datasets.
+How Does Filtering Work?
+
+Filtering checks every row in a DataFrame against a given condition.
+
+If the condition is True, the row is displayed.
+If the condition is False, the row is ignored.
+
+Only the rows that satisfy the condition appear in the result.
+
+Types of Filtering
+
+Filtering can be performed using different types of conditions.
+
+1. Comparison Filtering
+
+Comparison operators compare values with a condition.
+
+Common comparison operators include:
+
+Operator	Meaning
+==	Equal to
+!=	Not equal to
+>	Greater than
+<	Less than
+>=	Greater than or equal to
+<=	Less than or equal to
+Example Conditions
+Marks greater than 80.
+Age less than 21.
+Grade equal to "A".
+City equal to "Karachi".
+2. Multiple Conditions
+
+Sometimes one condition is not enough.
+
+We may need to apply two or more conditions together.
+
+Pandas supports logical operators for this purpose.
+
+Logical Operators
+Operator	Meaning
+&	AND (both conditions must be True)
+`	`
+~	NOT (reverses the condition)
+Example
+
+Find students who:
+
+Live in Karachi AND
+Have marks above 80.
+
+Both conditions must be true.
+
+Another example:
+
+Show students who are:
+
+From Lahore OR
+Have Grade A.
+
+Only one condition needs to be true.
+
+Boolean Mask
+
+Filtering creates a Boolean Mask behind the scenes.
+
+A Boolean Mask is a list containing only:
+
+True
+False
+
+For each row:
+
+True → Keep the row.
+False → Remove the row.
+
+This is how Pandas decides which rows to display.
+
+Advantages of Filtering
+Finds required data quickly.
+Saves time.
+Removes unnecessary records.
+Makes analysis easier.
+Improves readability.
+Works efficiently with large datasets.
+Essential for Machine Learning data preparation.
+Real-World Examples
+
+Filtering is used in many real-life situations.
+
+School
+
+Show students who scored above 90 marks.
+
+Company
+
+Display employees with salaries greater than $50,000.
+
+Hospital
+
+Show patients older than 60 years.
+
+E-commerce
+
+Display products costing less than $100.
+
+Banking
+
+Show customers with account balances above $10,000.
+
+University
+
+Find students with Grade A.
+
+Applications
+
+Filtering is widely used in:
+
+Data Analysis
+Data Science
+Machine Learning
+Artificial Intelligence
+Business Analytics
+Finance
+Healthcare
+Marketing
+Banking
+Sales Reporting
+Why is Filtering Important in Machine Learning?
+
+Before training a Machine Learning model, datasets often contain:
+
+Unnecessary rows.
+Invalid records.
+Incorrect values.
+Outliers.
+
+Filtering helps remove unwanted records so that only useful data is used for training the model.
+
+This improves the quality and accuracy of Machine Learning models.
+
+Key Points to Remember
+Filtering selects only the required rows.
+Every row is checked against a condition.
+Rows with True are displayed.
+Rows with False are ignored.
+Comparison operators are used to create conditions.
+Logical operators combine multiple conditions.
+Filtering is one of the most frequently used operations in Pandas.
+
+🎯 Real-Life Example
+
+Imagine a school has 10,000 student records.
+
+The principal wants to:
+
+Find students with marks above 90.
+Display only Grade A students.
+Show students from Karachi.
+Find students from Lahore with marks above 85.
+
+Instead of checking all 10,000 records manually, Pandas uses filtering to display only the required students within seconds.
+
+📝 Quick Summary
+
+Concept	Meaning
+Filtering	Selecting rows based on conditions.
+Condition	A rule used to check each row.
+Comparison Operators	Compare values (==, >, <, >=, <=, !=).
+Logical Operators	Combine conditions (&, `
+Boolean Mask	A list of True and False values created during filtering.
+True	Row is displayed.
+False	Row is hidden.
+Single Condition	One rule is applied.
+Multiple Conditions	Two or more rules are applied together.
+
+⭐ One-Line Revision
+
+Filtering → Select only the rows that match a condition.
+Condition → A rule used to test each row.
+True → Keep the row.
+False → Remove the row.
+Comparison Operators → Compare values.
+Logical Operators → Combine multiple conditions.
+Boolean Mask → A list of True and False values.
+Filtering → One of the most important operations in Pandas.
+
+⭐ Easy Trick to Remember
+
+Remember This	Meaning
+Filter = Search	Find only the data you need.
+True = Show	Display the row.
+False = Hide	Do not display the row.
+==	Equal to
+>	Greater than
+<	Less than
+&	AND (Both conditions must be true)
+|	OR (Any one condition can be true)
+~	NOT (Reverse the condition)
+🌍 Real-World Project Example
+
+Suppose you are working as a Data Analyst in an online shopping company.
+
+The company has 500,000 product records, but your manager asks you to:
+
+Show only products priced above $100.
+Display products that are in stock.
+Find products in the Electronics category.
+Show Electronics products priced above $500.
+
+Instead of checking every product manually, you use Filtering to retrieve only the required records. This makes analysis much faster and is a common task in real-world Data Science, Business Analytics, and Machine Learning projects.
+
+⭐ Exam Definition
+
+Filtering in Pandas is the process of selecting rows from a DataFrame based on one or more conditions. It uses comparison and logical operators to return only the rows that satisfy the specified condition. Filtering helps retrieve relevant data efficiently and is widely used in Data Analysis, Data Science, Machine Learning, and Artificial Intelligence.

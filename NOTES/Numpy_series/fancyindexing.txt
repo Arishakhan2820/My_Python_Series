@@ -1,0 +1,110 @@
+📘 Topic : Fancy Indexing & np.where in NumPy
+
+1. Fancy Indexing
+What is Fancy Indexing?
+
+Fancy Indexing is a NumPy feature that allows you to select multiple specific elements or rows by providing a list of indexes instead of selecting them one by one.
+
+Easy Explanation
+
+Instead of choosing elements one at a time, you simply give NumPy a list of the positions you want. NumPy returns only those selected values in the same order.
+
+Real-Life Example:
+Imagine a teacher asks only students with Roll Numbers 1, 5, and 8 to come forward. Only those students are selected, while everyone else stays seated.
+
+📘 2. np.where()
+What is np.where()?
+
+np.where() is a NumPy function that checks a condition and returns different values depending on whether the condition is True or False.
+
+Easy Explanation
+
+It works like an if-else statement. NumPy checks every value, and if the condition is true, it returns one result; otherwise, it returns another.
+
+Real-Life Example:
+A school checks students' marks. If a student scores 50 or above, the result is Pass; otherwise, it is Fail.
+
+📘 3. np.argmax()
+What is np.argmax()?
+
+np.argmax() returns the index (position) of the largest value in an array.
+
+Easy Explanation
+
+It does not return the largest number itself. Instead, it tells you where the largest number is located in the array.
+
+Real-Life Example:
+A teacher wants to know which student (roll number) got the highest marks, not just the highest marks themselves.
+
+📘 4. np.argmin()
+What is np.argmin()?
+
+np.argmin() returns the index (position) of the smallest value in an array.
+
+Easy Explanation
+
+It finds the smallest value and tells you its position in the array instead of returning the value itself.
+
+Real-Life Example:
+A teacher wants to know which student (roll number) scored the lowest marks in the class.
+
+📘 5. np.max()
+What is np.max()?
+
+np.max() returns the largest value present in an array.
+
+Easy Explanation
+
+It looks at every value in the array and finds the biggest one.
+
+Real-Life Example:
+A teacher checks all students' marks and finds the highest score in the class.
+
+📘 6. np.min()
+What is np.min()?
+
+np.min() returns the smallest value present in an array.
+
+Easy Explanation
+
+It checks every value in the array and finds the smallest one.
+
+Real-Life Example:
+A teacher checks all students' marks and finds the lowest score in the class.
+
+📘 7. ReLU (Rectified Linear Unit)
+What is ReLU?
+
+ReLU is one of the most commonly used activation functions in Artificial Intelligence and Deep Learning. It keeps positive values unchanged and converts all negative values to 0.
+
+Easy Explanation
+
+ReLU removes all negative values and keeps positive values the same. This helps neural networks learn faster and perform better.
+
+Real-Life Example:
+Imagine a company only accepts positive profits. If a branch makes a loss (negative value), it is treated as 0, while positive profits are kept unchanged. This is similar to how ReLU works.
+
+📝 Quick Revision
+
+Term	Meaning
+Fancy Indexing	Selects multiple specific elements or rows using a list of indexes.
+np.where()	Checks a condition and returns different values based on whether it is True or False (works like an if-else statement).
+np.max()	Returns the largest value in an array.
+np.argmax()	Returns the index (position) of the largest value.
+np.min()	Returns the smallest value in an array.
+np.argmin()	Returns the index (position) of the smallest value.
+ReLU	Keeps positive values unchanged and converts negative values to 0.
+
+⭐ One-Line Revision
+
+Fancy Indexing → Selects specific elements or rows using multiple indexes.
+np.where() → Checks a condition and returns results based on True or False.
+np.max() → Finds the largest value.
+np.argmax() → Finds the position (index) of the largest value.
+np.min() → Finds the smallest value.
+np.argmin() → Finds the position (index) of the smallest value.
+ReLU → Replaces negative values with 0 and keeps positive values unchanged.
+
+🎯 Exam Summary
+
+Fancy Indexing allows us to select specific elements or rows using a list of indexes. np.where() performs condition-based operations like an if-else statement. np.max() and np.min() return the largest and smallest values, while np.argmax() and np.argmin() return the positions of those values. ReLU is an activation function used in AI and Deep Learning that converts negative values to 0 while keeping positive values unchanged. These functions are widely used in NumPy, Data Science, Machine Learning, and Artificial Intelligence for efficient data processing and analysis.
