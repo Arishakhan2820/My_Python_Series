@@ -1,0 +1,284 @@
+📘 Topic 5 — Pie Chart (Percentage Distribution)
+
+What is a Pie Chart?
+
+A Pie Chart is a circular graph that shows how each category contributes to the whole using slices (or sectors).
+
+In simple words,
+
+A Pie Chart is used to display percentages or proportions of different categories in a dataset.
+
+Each slice of the pie represents one category, and the size of the slice depends on its percentage of the total.
+
+Definition
+
+A Pie Chart is a circular statistical graph that divides a whole dataset into slices, where each slice represents the percentage or proportion of a category.
+
+Why Do We Use a Pie Chart?
+
+A Pie Chart helps answer questions like:
+
+Which category has the largest share?
+Which category has the smallest share?
+What percentage does each category represent?
+How is the total divided among different categories?
+
+Instead of reading numbers, we can quickly understand the percentage distribution.
+
+What Does a Pie Chart Show?
+
+A Pie Chart shows:
+
+Percentage distribution.
+Proportion of each category.
+Part-to-whole relationship.
+Largest and smallest categories.
+Components of a Pie Chart
+
+A professional Pie Chart usually contains:
+
+Circular chart
+Slices (sectors)
+Labels
+Percentages
+Colors
+Title
+Legend (optional)
+Exploded slices (optional)
+Shadow effect (optional)
+What is a Slice?
+
+A slice is one section of the Pie Chart.
+
+Each slice represents one category and its percentage of the total.
+
+Larger percentage → Larger slice.
+
+Smaller percentage → Smaller slice.
+
+What is Percentage Distribution?
+
+Percentage distribution tells us what portion of the total belongs to each category.
+
+For example:
+
+If there are 100 students:
+
+A+ = 15 students = 15%
+A = 25 students = 25%
+B = 30 students = 30%
+C = 20 students = 20%
+Fail = 10 students = 10%
+
+A Pie Chart displays these percentages as slices of a circle.
+
+What is an Exploded Slice?
+
+An Exploded Slice is a slice that is slightly separated from the rest of the Pie Chart.
+
+It is used to highlight important categories.
+
+For example:
+
+Highest sales product
+Best-performing department
+Lowest-performing category
+Failed students
+
+This makes the highlighted category more noticeable.
+
+Why Use Different Colors?
+
+Different colors help to:
+
+Distinguish categories.
+Improve readability.
+Make the chart attractive.
+Highlight important information.
+Why Show Percentages?
+
+Displaying percentages allows viewers to immediately understand:
+
+The share of each category.
+The contribution of each section.
+Which category dominates the dataset.
+Applications of Pie Charts
+
+Pie Charts are widely used in:
+
+Data Analysis
+Business Reports
+Education
+Marketing
+Finance
+Healthcare
+Government Reports
+Survey Analysis
+Sales Reports
+Budget Planning
+
+🌍 Real-World Example 1 — Student Grades
+
+A teacher wants to show grade distribution.
+
+Grade	Students
+A+	15
+A	25
+B	30
+C	20
+Fail	10
+
+Instead of showing a table, the teacher creates a Pie Chart.
+
+The chart instantly shows:
+
+Most students received Grade B.
+Very few students failed.
+A and B grades make up the largest portion.
+🌍 Real-World Example 2 — Company Budget
+
+A company spends money on:
+
+Salaries
+Marketing
+Rent
+Utilities
+Technology
+
+A Pie Chart shows what percentage of the budget goes to each department.
+
+Managers can quickly identify the largest expenses.
+
+🌍 Real-World Example 3 — Mobile Market Share
+
+A research company analyzes smartphone brands.
+
+Market Share:
+
+Samsung → 35%
+Apple → 30%
+Xiaomi → 20%
+Oppo → 10%
+Others → 5%
+
+A Pie Chart clearly shows which company has the largest market share.
+
+🌍 Real-World Example 4 — Family Monthly Expenses
+
+A family records monthly spending on:
+
+Food
+Rent
+Electricity
+Transport
+Entertainment
+
+A Pie Chart shows which expense takes the biggest portion of the monthly budget.
+
+Why is Pie Chart Important in AI & Data Science?
+
+Although Pie Charts are less common in Machine Learning, they are useful for:
+
+Showing class distribution.
+Visualizing survey responses.
+Displaying category percentages.
+Presenting business reports.
+Summarizing categorical data.
+
+They are commonly used in dashboards and presentations.
+
+Advantages of Pie Charts
+Easy to understand.
+Clearly shows percentages.
+Attractive visual presentation.
+Highlights the largest and smallest categories.
+Best for showing part-to-whole relationships.
+Ideal for reports and presentations.
+Limitations of Pie Charts
+Not suitable for many categories.
+Difficult to compare very similar slice sizes.
+Only works well for percentage-based data.
+Less effective for large datasets.
+When Should You Use a Pie Chart?
+
+Use a Pie Chart when you want to show:
+
+Grade distribution
+Market share
+Budget allocation
+Survey results
+Department expenses
+Product category percentages
+Customer demographics
+Election vote percentages
+
+Whenever your goal is to show how a whole is divided into parts, use a Pie Chart.
+
+Pie Chart vs Bar Chart vs Histogram vs Scatter Plot
+Pie Chart	Bar Chart	Histogram	Scatter Plot
+Shows percentages	Compares categories	Shows data distribution	Shows relationship between variables
+Circular graph	Uses bars	Uses touching bars	Uses dots
+Best for part-to-whole	Best for comparison	Best for numerical distribution	Best for correlation
+Percentage-based	Category-based	Range-based	Relationship-based
+
+🌍 Where is it Used in AI & Data Science?
+
+Pie Charts are used to visualize:
+
+Class distribution
+Customer segmentation
+Product category sales
+Survey responses
+Business reports
+Market share
+Budget allocation
+
+They help present categorical data in a simple and visually appealing way.
+
+Key Points to Remember
+A Pie Chart shows percentage distribution.
+The entire circle represents 100%.
+Each slice represents one category.
+Larger slices indicate larger percentages.
+Exploded slices highlight important categories.
+Colors improve readability.
+Pie Charts are best for showing part-to-whole relationships.
+Widely used in reports, dashboards, and presentations.
+
+📝 Quick Summary
+
+Concept	Meaning
+Pie Chart	A circular graph showing percentage distribution.
+Slice	One section of the pie representing a category.
+Percentage	The share of each category out of the total.
+Exploded Slice	A highlighted slice separated from the chart.
+Colors	Differentiate categories visually.
+Best Used For	Grades, market share, budgets, surveys, and category percentages.
+
+⭐ One-Line Revision
+
+Pie Chart → Shows percentage distribution.
+Circle → Represents 100% of the data.
+Slice → Represents one category.
+Larger Slice → Larger percentage.
+Exploded Slice → Highlights important categories.
+Colors → Improve readability.
+Used In → Business reports, surveys, education, finance, AI dashboards, and Data Analysis.
+
+🎯 Easy Trick to Remember
+
+PIE = Part of the Entire
+
+Ask yourself:
+
+What percentage does each category have?
+How is the total divided?
+Which category has the biggest share?
+
+➡️ Use a Pie Chart.
+
+📌 Remember the Difference
+📊 Bar Chart → Compare different categories.
+📈 Histogram → Show how numerical data is distributed.
+🔵 Scatter Plot → Show the relationship between two variables.
+🥧 Pie Chart → Show percentage or part-to-whole distribution

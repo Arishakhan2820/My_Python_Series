@@ -1,0 +1,291 @@
+📘 Topic 6 — Subplots (Multiple Graphs in One Figure)
+
+What are Subplots?
+
+Subplots allow us to display multiple graphs inside a single figure.
+
+In simple words,
+
+Subplots help us show several charts together in one window, making it easier to compare and analyze different types of data at the same time.
+
+Instead of creating separate windows for each graph, Subplots organize multiple graphs into a grid.
+
+Definition
+
+A Subplot is a smaller graph placed inside a larger figure. It allows multiple plots to be displayed together in a single figure using rows and columns.
+
+Why Do We Use Subplots?
+
+Subplots are useful when we want to:
+
+Compare multiple datasets.
+Display different chart types together.
+Build professional dashboards.
+Save space by combining graphs.
+Analyze data more efficiently.
+
+Instead of opening many graph windows, everything appears in one organized figure.
+
+What is a Figure?
+
+A Figure is the complete canvas or window that contains one or more graphs.
+
+Think of it as a page.
+
+Inside this page, we place one or more subplots.
+
+What is an Axis (Axes)?
+
+Each individual graph inside a figure is called an Axes (or subplot).
+
+Every subplot has its own:
+
+X-axis
+Y-axis
+Title
+Labels
+Grid
+Data
+
+This means each graph works independently, even though they are displayed together.
+
+Grid Layout
+
+Subplots are arranged using rows and columns.
+
+For example:
+
+1 × 2 Grid
++----------------+----------------+
+|    Plot 1      |    Plot 2      |
++----------------+----------------+
+2 × 2 Grid
++----------------+----------------+
+|    Plot 1      |    Plot 2      |
++----------------+----------------+
+|    Plot 3      |    Plot 4      |
++----------------+----------------+
+3 × 2 Grid
++----------------+----------------+
+|    Plot 1      |    Plot 2      |
++----------------+----------------+
+|    Plot 3      |    Plot 4      |
++----------------+----------------+
+|    Plot 5      |    Plot 6      |
++----------------+----------------+
+Why Use a Dashboard?
+
+A dashboard combines multiple charts into one screen so users can view all important information at once.
+
+Instead of switching between different graphs, everything is available in one place.
+
+Dashboards are commonly used by:
+
+Companies
+Banks
+Hospitals
+Schools
+Government organizations
+Components of Subplots
+
+A professional subplot figure usually contains:
+
+Main Figure
+Multiple Subplots
+Titles
+Axis Labels
+Grid Lines
+Legends (if needed)
+Different Chart Types
+Different Charts in One Figure
+
+One subplot figure can contain different graph types such as:
+
+Line Chart
+Bar Chart
+Histogram
+Pie Chart
+Scatter Plot
+
+This makes dashboards more informative.
+
+Applications of Subplots
+
+Subplots are widely used in:
+
+Data Science
+Business Dashboards
+Machine Learning
+Artificial Intelligence
+Finance
+Healthcare
+Marketing
+Education
+Research
+Sales Reporting
+
+🌍 Real-World Example 1 — Business Dashboard
+
+A company wants to monitor business performance.
+
+Instead of creating four separate graphs, they create one dashboard containing:
+
+📈 Monthly Sales (Line Chart)
+📊 Product Sales (Bar Chart)
+📉 Customer Marks Distribution (Histogram)
+🥧 Market Share (Pie Chart)
+
+Managers can understand the complete business performance by looking at a single dashboard.
+
+🌍 Real-World Example 2 — School Performance Dashboard
+
+A school principal wants to analyze student data.
+
+The dashboard includes:
+
+Student Marks Trend
+Grade Distribution
+Attendance Percentage
+Subject-wise Performance
+
+Everything appears in one figure, making it easy to compare.
+
+🌍 Real-World Example 3 — Hospital Dashboard
+
+A hospital monitors patient statistics.
+
+The dashboard contains:
+
+Daily Admissions
+Patient Age Distribution
+Disease Categories
+Recovery Rate
+
+Doctors can analyze all important information from one screen.
+
+🌍 Real-World Example 4 — E-commerce Dashboard
+
+An online shopping company wants to monitor:
+
+Monthly Revenue
+Product Sales
+Customer Age Distribution
+Market Share
+
+Instead of opening multiple charts, all graphs appear together in one dashboard.
+
+Why are Subplots Important in AI & Machine Learning?
+
+Data Scientists often analyze many features at the same time.
+
+Subplots help them:
+
+Compare multiple variables.
+Analyze different datasets.
+Visualize feature distributions.
+Build professional reports.
+Create Exploratory Data Analysis (EDA) dashboards.
+
+Subplots save time and improve data understanding.
+
+Advantages of Subplots
+Display multiple graphs together.
+Easy comparison between datasets.
+Saves screen space.
+Creates professional dashboards.
+Improves data analysis.
+Better for presentations.
+Makes reports more organized.
+Limitations of Subplots
+Too many graphs can make the figure crowded.
+Small subplot sizes may reduce readability.
+Requires careful layout planning.
+When Should You Use Subplots?
+
+Use Subplots when you want to:
+
+Compare multiple graphs.
+Build dashboards.
+Present business reports.
+Analyze several datasets together.
+Show different visualizations on one screen.
+
+Whenever multiple charts need to be viewed together, Subplots are the best choice.
+
+Subplots vs Single Plot
+Single Plot	Subplots
+One graph per figure	Multiple graphs in one figure
+Simple analysis	Detailed comparison
+Less information	More information
+Suitable for one dataset	Suitable for multiple datasets
+
+🌍 Where is it Used in AI & Data Science?
+
+Subplots are commonly used for:
+
+Exploratory Data Analysis (EDA)
+Feature comparison
+Model evaluation
+Business dashboards
+Performance monitoring
+Financial reports
+Medical data analysis
+Marketing analytics
+
+Professional Data Scientists use Subplots almost every day while analyzing data.
+
+Key Points to Remember
+A Figure is the main window that contains graphs.
+A Subplot is one graph inside the figure.
+Subplots are arranged in rows and columns.
+Multiple graph types can be displayed together.
+Subplots make comparison easier.
+They are widely used for dashboards and reports.
+They are an important part of Data Science and Machine Learning.
+
+📝 Quick Summary
+
+Concept	Meaning
+Figure	The main window or canvas containing all graphs.
+Subplot	A single graph inside the figure.
+Grid Layout	Arrangement of subplots using rows and columns.
+Dashboard	A collection of multiple charts in one figure.
+Purpose	Compare multiple datasets and visualizations together.
+Best Used For	Dashboards, reports, AI, ML, and Data Analysis.
+
+⭐ One-Line Revision
+
+Figure → The complete graph window.
+Subplot → One graph inside the figure.
+Dashboard → Multiple graphs shown together.
+Grid Layout → Rows × Columns arrangement.
+Best Use → Comparing multiple charts at once.
+
+Used In → Business reports, AI, Machine Learning, Data Science, Finance, and Healthcare.
+
+🎯 Easy Trick to Remember
+
+SUBPLOTS = Many Plots, One Window
+
+Ask yourself:
+
+Do I need multiple graphs together?
+Do I want to compare different charts?
+Am I building a dashboard?
+
+➡️ Use Subplots.
+
+📌 Remember the Difference
+Visualization	Purpose
+📈 Line Chart	Show trends over time.
+📊 Bar Chart	Compare categories.
+📉 Histogram	Show data distribution.
+🔵 Scatter Plot	Show relationships between variables.
+🥧 Pie Chart	Show percentage distribution.
+🖥️ Subplots	Display multiple graphs together in one figure (dashboard).
+💼 Interview & Exam Points
+Subplots allow multiple graphs to be displayed within a single figure.
+They are arranged using rows and columns in a grid layout.
+Each subplot has its own axes, title, labels, and data.
+Subplots are commonly used to create dashboards for comparing multiple datasets.
+They are widely used in Data Science, Machine Learning, Business Analytics, Finance, Healthcare, and Reporting because they present multiple visualizations in one organized view.
