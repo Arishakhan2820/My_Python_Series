@@ -319,6 +319,7 @@ Plot	Main Purpose
 🔗 Pair Plot	Relationship among all numerical features
 📊 Count Plot	Frequency of categorical values
 💼 Interview & Exam Points
+
 Box Plot is used to visualize data distribution and detect outliers.
 Violin Plot combines the features of a Box Plot and a density plot to show data distribution.
 Heatmap displays a correlation matrix using colors to represent the strength of relationships.
