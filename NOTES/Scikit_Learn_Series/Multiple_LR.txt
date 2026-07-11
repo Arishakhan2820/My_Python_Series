@@ -1,0 +1,249 @@
+📘 TOPIC 3 — Multiple Linear Regression
+What is Multiple Linear Regression?
+
+Multiple Linear Regression is a Machine Learning algorithm used to predict a value using more than one input (feature).
+
+Unlike Simple Linear Regression, which uses only one input variable, Multiple Linear Regression uses multiple features to make a more accurate prediction.
+
+Simple Definition
+
+Multiple Linear Regression is a supervised learning algorithm that predicts a continuous value by learning the relationship between one target variable and two or more input features.
+
+Why Do We Use Multiple Linear Regression?
+
+In real life, one factor is usually not enough to make an accurate prediction.
+
+For example, a student's final marks do not depend only on study hours. They also depend on:
+
+Study Hours
+Sleep Hours
+Attendance
+Previous Exam Marks
+
+Using all these factors together helps the model make better predictions.
+
+Formula of Multiple Linear Regression
+
+y = b0​+b1​x1​+b2​x2​+b3​x3​+...+bn​xn​
+
+Where:
+y = Predicted output
+b₀ = Intercept (starting value)
+b₁, b₂, b₃... = Coefficients (importance of each feature)
+x₁, x₂, x₃... = Input features
+Real-World Example
+
+Imagine a university wants to predict a student's final marks.
+
+The prediction depends on:
+
+Study Hours
+Sleep Hours
+Attendance
+Previous Marks
+
+Instead of looking at only one factor, the model learns from all these features together and predicts the final marks more accurately.
+
+Features Used in This Project
+Feature	Meaning
+Study_Hours	Hours the student studies daily
+Sleep_Hours	Daily sleeping hours
+Attendance	Attendance percentage
+Prev_Marks	Previous exam marks
+Final_Marks	Target value to predict
+Workflow of Multiple Linear Regression
+Step 1 — Collect Data
+
+First, collect data that contains several input features and one target value.
+
+Example:
+
+Study	Sleep	Attendance	Previous	Final
+5	7	90	80	85
+Step 2 — Separate Features and Target
+
+The dataset is divided into:
+
+Features (X) → Input values
+Target (y) → Output value to predict
+Step 3 — Split the Dataset
+
+The data is divided into:
+
+Training Data (80%)
+Testing Data (20%)
+
+Training data teaches the model.
+
+Testing data checks how well the model learned.
+
+Step 4 — Feature Scaling
+
+Different features usually have different ranges.
+
+Example:
+
+Study Hours → 1–10
+
+Attendance → 60–100
+
+Previous Marks → 50–95
+
+These different scales can affect model performance.
+
+Feature Scaling converts all features into a similar range, making learning faster and more balanced.
+
+What is StandardScaler?
+
+StandardScaler is a preprocessing tool that standardizes numerical data.
+
+It transforms every feature so that:
+
+Mean becomes 0
+Standard Deviation becomes 1
+
+This makes all features equally important during training.
+
+fit_transform() vs transform()
+fit_transform()
+
+Used only on the training data.
+
+It performs two tasks:
+
+Learns the mean and standard deviation.
+Applies scaling.
+transform()
+
+Used on the testing data.
+
+It only applies the same scaling learned from the training data.
+
+It never learns again.
+
+This prevents data leakage.
+
+Step 5 — Train the Model
+
+The Linear Regression model learns patterns from the training data.
+
+It calculates how each feature affects the final prediction.
+
+Step 6 — Make Predictions
+
+After training, the model predicts the target values for unseen testing data.
+
+These predicted values are compared with the actual values.
+
+Step 7 — Evaluate the Model
+
+The model's performance is measured using the R² Score.
+
+R² Score Meaning
+R² Score	Meaning
+1.0	Perfect prediction
+0.9	Excellent model
+0.8	Very good model
+0.6	Acceptable
+0.0	Model learned nothing
+Less than 0	Worse than random guessing
+
+The closer the R² score is to 1, the better the model performs.
+
+Feature Importance
+
+Every feature receives a coefficient after training.
+
+The coefficient shows how much that feature influences the prediction.
+
+Larger positive coefficient → More important feature.
+Smaller coefficient → Less influence.
+Negative coefficient → Increases in that feature may reduce the prediction.
+
+By comparing coefficients, we can identify which features have the greatest impact.
+
+Real-World Applications
+
+Multiple Linear Regression is widely used in many industries.
+
+Education
+
+Predicting student performance using study habits, attendance, and previous grades.
+
+Real Estate
+
+Predicting house prices using area, number of rooms, age, and location.
+
+Healthcare
+
+Predicting patient health based on age, weight, blood pressure, and medical history.
+
+Business
+
+Predicting company sales using advertising budget, customer traffic, and product price.
+
+Banking
+
+Predicting loan approval or customer spending patterns.
+
+Marketing
+
+Predicting product demand using season, advertisements, and customer behavior.
+
+Advantages
+Uses multiple features for better predictions.
+More accurate than Simple Linear Regression.
+Easy to understand and interpret.
+Fast to train.
+Works well for many real-world problems.
+Helps identify the importance of each feature.
+Limitations
+Assumes a linear relationship between inputs and output.
+Sensitive to outliers.
+Requires good-quality data.
+Performance decreases if features are highly correlated (multicollinearity).
+May not work well for complex nonlinear problems.
+Difference Between Simple and Multiple Linear Regression
+Simple Linear Regression	Multiple Linear Regression
+Uses one feature	Uses multiple features
+Simpler model	More powerful model
+Less accurate for complex data	More accurate for real-world data
+Example: Study Hours → Marks	Study Hours + Sleep + Attendance + Previous Marks → Marks
+Real-Time Example
+
+Imagine a school wants to predict a student's final exam marks.
+
+Instead of using only study hours, the school also considers:
+
+Daily study hours
+Sleep hours
+Attendance percentage
+Previous exam marks
+
+The Multiple Linear Regression model learns from all these factors together and predicts the student's final marks much more accurately than using only one feature.
+
+Key Points to Remember
+Multiple Linear Regression uses two or more input features to predict one output.
+It is a Supervised Machine Learning algorithm.
+More relevant features usually improve prediction accuracy.
+Feature Scaling is important when features have different ranges.
+StandardScaler standardizes numerical features.
+Use fit_transform() only for training data.
+Use transform() only for testing data.
+R² Score measures model performance.
+Feature coefficients show the importance of each input feature.
+
+ Quick Revision
+
+Topic	Meaning
+Multiple Linear Regression	Predicts one output using multiple input features.
+Feature	Input variable used for prediction.
+Target	Output value that the model predicts.
+Train/Test Split	Divides data into training and testing sets.
+Feature Scaling	Converts features into a similar scale.
+StandardScaler	Standardizes data with mean = 0 and standard deviation = 1.
+fit_transform()	Learns scaling parameters and applies them to training data.
+transform()	Applies the same scaling to testing data.
+Coefficient	Shows how important a feature is.
+R² Score	Measures how accurately the model makes predictions.
+Best Feature	The feature with the largest positive coefficient has the strongest influence on the prediction.
