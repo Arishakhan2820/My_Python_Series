@@ -1,0 +1,153 @@
+TOPIC 6 — Model Save & Load (TensorFlow)
+
+ What is Model Save & Load?
+
+After training a Deep Learning model, you don't want to train it again every time you use it.
+
+Instead, you save the trained model into a file.
+
+Later, you can load the same model and use it for predictions without retraining.
+
+This saves time, computer resources, and keeps the learned knowledge safe.
+
+ Why Do We Save a Model?
+
+Imagine you studied for 6 months for an exam.
+
+After passing the exam, would you study from the beginning every single day?
+
+No!
+
+You keep your knowledge and use it whenever needed.
+
+A trained AI model works the same way.
+
+Train once ✅
+Save the model ✅
+Load it anytime ✅
+Predict new data ✅
+
+ Real World Example:
+
+A company trains a Face Recognition Model.
+
+Training takes 8 hours.
+
+Instead of training every day:
+
+Train once
+Save the model
+Load it whenever someone unlocks their phone
+
+That's exactly how mobile apps, websites, and AI systems work.
+
+ Two Ways to Save a Model
+
+1. Save Complete Model (Recommended)
+
+This saves everything:
+
+Model structure
+Learned weights
+Optimizer
+Training configuration
+
+You can load it and use it immediately.
+
+model.save('my_model.keras')
+
+2. Save Only Weights
+
+This saves only the learned weights.
+
+The model architecture must be created again before loading the weights.
+
+model.save_weights('model_weights.weights.h5')
+
+ Loading a Model:
+
+Loading means opening the saved model again.
+
+loaded_model = tf.keras.models.load_model('my_model.keras')
+
+Now the loaded model behaves exactly like the original trained model.
+
+ Why is Model Saving Important?
+
+No need to train again.
+Saves time.
+Saves computer power.
+Easy deployment in apps and websites.
+Makes sharing models simple.
+
+ Real Life AI Examples:
+
+Face Unlock
+ChatGPT
+Google Translate
+Self-driving cars
+Spam detection
+Voice assistants
+
+All of these use saved trained models.
+
+ Important Functions:
+ 
+Function	Purpose
+model.save()	Saves the complete model
+model.save_weights()	Saves only weights
+load_model()	Loads a saved model
+predict()	Makes predictions using the loaded model
+summary()	Displays the model architecture
+
+ Easy Example:
+
+Suppose you trained a model to predict whether a student will pass or fail.
+
+Day 1:
+
+Train model
+Save model
+
+Day 2:
+
+Load model
+Predict new students
+
+No retraining needed.
+
+⚡ Workflow
+Create Model
+      ↓
+Train Model
+      ↓
+Save Model
+      ↓
+Close Program
+      ↓
+Open Again
+      ↓
+Load Model
+      ↓
+Predict New Data
+
+ Real World Uses:
+
+Hospital disease prediction systems
+Banking fraud detection
+Face recognition
+Voice assistants
+Chatbots
+Image recognition
+Recommendation systems
+
+ Quick Summary:
+
+Model Save stores a trained model into a file.
+Model Load opens the saved model later.
+Saving avoids training the model again.
+model.save() saves the complete model.
+model.save_weights() saves only the learned weights.
+load_model() loads the saved model.
+After loading, you can immediately make predictions.
+Model saving is widely used in real-world AI applications.
